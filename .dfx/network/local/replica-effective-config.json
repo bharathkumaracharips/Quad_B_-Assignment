@@ -1,0 +1,31 @@
+{
+  "replica_rev": "4ba583480e05a518aa2bcf36f5a0e48475e8edc2",
+  "effective_canister_id": null,
+  "type": "replica",
+  "config": {
+    "http_handler": {
+      "port": null,
+      "write_port_to": "/Users/bharaths_mac/quad_B_assignment/icp_token_wallet/.dfx/network/local/replica-configuration/replica-1.port"
+    },
+    "state_manager": {
+      "state_root": "/Users/bharaths_mac/quad_B_assignment/icp_token_wallet/.dfx/network/local/state/replicated_state"
+    },
+    "crypto": {
+      "crypto_root": "/Users/bharaths_mac/quad_B_assignment/icp_token_wallet/.dfx/network/local/state/crypto_store"
+    },
+    "artifact_pool": {
+      "consensus_pool_path": "/Users/bharaths_mac/quad_B_assignment/icp_token_wallet/.dfx/network/local/state/consensus_pool"
+    },
+    "subnet_type": "application",
+    "btc_adapter": {
+      "enabled": false,
+      "socket_path": null
+    },
+    "canister_http_adapter": {
+      "enabled": true,
+      "socket_path": "/var/folders/cf/x4q9dw3n74jb5f852rtpwp5r0000gn/T/ic-https-outcalls-adapter-socket.4064.1740124368"
+    },
+    "log_level": "error",
+    "artificial_delay": 600
+  }
+}
